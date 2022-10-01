@@ -26,7 +26,12 @@ Candidate splitting points identified by CDE and the CUI curve of I-Split on the
 </p>
 
 ## Citation ##
-If you use **I-Split** dataset or this paper implementation, please cite the following papers.
+If you use **I-Split**, please, cite the following paper:
 ```
-Proceedings not yet available.
+@article{cunico2022split,
+  title={I-SPLIT: Deep Network Interpretability for Split Computing},
+  author={Cunico, Federico and Capogrosso, Luigi and Setti, Francesco and Carra, Damiano and Fummi, Franco and Cristani, Marco},
+  journal={arXiv preprint arXiv:2209.11607},
+  year={2022}
+}
 ```
