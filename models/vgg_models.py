@@ -433,7 +433,6 @@ class VGGBottleneck(VGG):
             idx = idxs[0]
             if idx > len(self.features) - 1:
                 # get activation of last layer of bottleneck... even if it"s not right probably
-                print("aaaaaaaaaaaaaaaaaa not implementedddd fffffffffff")
                 raise NotImplementedError
             else:
                 up_to_bottleneck = self.features[0: idx + 1]
@@ -746,7 +745,6 @@ class VGGBottleneck(VGG):
             idx = idxs[0]
             if idx > len(self.features) - 1:
                 # get activation of last layer of bottleneck... even if it"s not right probably
-                print("aaaaaaaaaaaaaaaaaa not implementedddd fffffffffff")
                 raise NotImplementedError
             else:
                 up_to_bottleneck = self.features[0: idx + 1]
@@ -1045,7 +1043,7 @@ def vgg19_bn_bottleneck_conv(pretrained=False, bottleneck_version="S1_v3", **kwa
 
 
 def __test_bottleneck__():
-    from src.models.bottlenecks.undercomplete_autoencoder import AutoEncoderUnderComplete
+    from bottlenecks.undercomplete_autoencoder import AutoEncoderUnderComplete
     xin = torch.rand((1, 3, 224, 224))
     m: VGGBottleneck = vgg16_bottleneck(False)
 
