@@ -1,6 +1,6 @@
 # I-Split: Deep Network Interpretability for Split Computing #
 
-The official PyTorch implementation discussed in *I-Split: Deep Network Interpretability for Split Computing* paper.
+The official PyTorch implementation discussed in ["I-Split: Deep Network Interpretability for Split Computing"](https://ieeexplore.ieee.org/abstract/document/9956625) paper.
 Accepted at the 26TH International Conference on Pattern Recognition 2022 (ICPR2022).
 
 ## Abstract ##
@@ -24,6 +24,13 @@ Candidate splitting points identified by CDE and the CUI curve of I-Split on the
   <img src="./expts/VGG_res/i_split_curve.png" width="48%">
   <img src="./expts/VGG_res/output_size_curve.png" width="48%">
 </p>
+
+## Authors ##
+Federico Cunico, Luigi Capogrosso, Francesco Setti, Damiano Carra, Franco Fummi, Marco Cristani 
+
+*Department of Computer Science, University of Verona, Italy*
+
+`name.surname@univr.it`
 
 ## Citation ##
 If you use **I-Split**, please, cite the following paper:
