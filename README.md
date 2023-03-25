@@ -33,7 +33,7 @@ Federico Cunico, Luigi Capogrosso, Francesco Setti, Damiano Carra, Franco Fummi,
 `name.surname@univr.it`
 
 ## Citation ##
-If you use **I-Split**, please, cite the following paper:
+If you use [**I-Split**](https://ieeexplore.ieee.org/abstract/document/9956625), please, cite the following paper:
 ```
 @inproceedings{cunico2022split,
   title={I-SPLIT: Deep Network Interpretability for Split Computing},
