@@ -129,6 +129,21 @@
             </div>
         </section>
 
+        <!-- Teaser. -->
+        <section class="hero teaser">
+            <div class="container is-max-desktop">
+                <div class="hero-body">
+                    <img src="./static/images/teaser.png" alt="I-SPLIT abstract" type="image/png">
+                    <h6 class="subtitle is-6 has-text-centered">
+                        Overview of our I-SPLIT framework. The input images are fed into a neural network to extract high-resolution
+                        importance maps using the Grad-CAM algorithm at each layer. Then, we average over all the image pixels of
+                        each map to produce per-image CUI curves. Finally, all curves are fused to generate the general CUI curve.
+                        The best splitting point for the network is the global maximum of the CUI curve.
+                    </h6>
+                </div>
+            </div>
+        </section>
+
         <!-- Abstract. -->
         <section class="section">
             <div class="container is-max-desktop">
@@ -137,25 +152,25 @@
                         <h2 class="title is-3">Abstract</h2>
                         <div class="content has-text-justified">
                             <p>
-                                This work makes a substantial step in the field of split computing, i.e., how to 
-                                split a deep neural network to host its early part on an embedded device and the 
-                                rest on a server. So far, potential split locations have been identified 
-                                exploiting uniquely architectural aspects, i.e., based on the layer sizes. 
-                                Under this paradigm, the efficacy of the split in terms of accuracy can be evaluated 
-                                only after having performed the split and retrained the entire pipeline, making an 
-                                exhaustive evaluation of all the plausible splitting points prohibitive in terms of 
-                                time. Here we show that not only the architecture of the layers does matter, but 
-                                the importance of the neurons contained therein too. A neuron is important if its 
-                                gradient with respect to the correct class decision is high. It follows that a 
-                                split should be applied right after a layer with a high density of important neurons, 
-                                in order to preserve the information flowing until then. Upon this idea, we propose 
-                                Interpretable Split (I-SPLIT): a procedure that identifies the most suitable splitting 
-                                points by providing a reliable prediction on how well this split will perform in terms 
-                                of classification accuracy, beforehand of its effective implementation. As a further 
-                                major contribution of I-SPLIT, we show that the best choice for the splitting point 
-                                on a multiclass categorization problem depends also on which specific classes the 
-                                network has to deal with. Exhaustive experiments have been carried out on two networks, 
-                                VGG16 and ResNet-50, and three datasets, Tiny-Imagenet-200, notMNIST, and Chest 
+                                This work makes a substantial step in the field of split computing, i.e., how to
+                                split a deep neural network to host its early part on an embedded device and the
+                                rest on a server. So far, potential split locations have been identified
+                                exploiting uniquely architectural aspects, i.e., based on the layer sizes.
+                                Under this paradigm, the efficacy of the split in terms of accuracy can be evaluated
+                                only after having performed the split and retrained the entire pipeline, making an
+                                exhaustive evaluation of all the plausible splitting points prohibitive in terms of
+                                time. Here we show that not only the architecture of the layers does matter, but
+                                the importance of the neurons contained therein too. A neuron is important if its
+                                gradient with respect to the correct class decision is high. It follows that a
+                                split should be applied right after a layer with a high density of important neurons,
+                                in order to preserve the information flowing until then. Upon this idea, we propose
+                                Interpretable Split (I-SPLIT): a procedure that identifies the most suitable splitting
+                                points by providing a reliable prediction on how well this split will perform in terms
+                                of classification accuracy, beforehand of its effective implementation. As a further
+                                major contribution of I-SPLIT, we show that the best choice for the splitting point
+                                on a multiclass categorization problem depends also on which specific classes the
+                                network has to deal with. Exhaustive experiments have been carried out on two networks,
+                                VGG16 and ResNet-50, and three datasets, Tiny-Imagenet-200, notMNIST, and Chest
                                 X-Ray Pneumonia.
                             </p>
                         </div>
