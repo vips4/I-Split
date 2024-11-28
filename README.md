@@ -34,12 +34,11 @@ Federico Cunico, Luigi Capogrosso, Francesco Setti, Damiano Carra, Franco Fummi,
 ## Citation ##
 If you use [**I-SPLIT**](https://ieeexplore.ieee.org/abstract/document/9956625), please, cite the following paper:
 ```
-@inproceedings{cunico2022split,
-  title={I-SPLIT: Deep Network Interpretability for Split Computing},
-  author={Cunico, Federico and Capogrosso, Luigi and Setti, Francesco and Carra, Damiano and Fummi, Franco and Cristani, Marco},
-  booktitle={2022 26th International Conference on Pattern Recognition (ICPR)},
-  pages={2575--2581},
-  year={2022},
-  organization={IEEE}
+@InProceedings{cunico2022split,
+  author    = {Cunico, Federico and Capogrosso, Luigi and Setti, Francesco and Carra, Damiano and Fummi, Franco and Cristani, Marco},
+  booktitle = {26th International Conference on Pattern Recognition (ICPR)},
+  title     = {{I-SPLIT: Deep Network Interpretability for Split Computing}},
+  year      = {2022},
+  doi       = {10.1109/icpr56361.2022.9956625},
 }
 ```
